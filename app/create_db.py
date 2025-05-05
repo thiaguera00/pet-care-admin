@@ -1,5 +1,7 @@
 from config.database import Base, engine 
 from database.models.user import User  
+from database.models.pet import Pet  
+from database.models.clinic import Clinic  
 
 def create_database():
     print("Criando banco de dados...")
